@@ -8,7 +8,7 @@ import { useState } from 'react';
 const Formulario = (props) => {
     const times = [
         'Programação',
-        'Front-end',
+        'Frontend',
         'Data Science',
         'Devops',
         'UX e Design',

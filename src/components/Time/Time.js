@@ -1,9 +1,12 @@
 import './Time.css'
 
 const Time = (props) => {
-    return (
-        <section className='time'>
-            <h3>{props.nome}</h3>
+    const cssSecundario = { backgroundColor: props.corSecundaria }
+    const cssPrimario = { borderColor: props.corPrimaria }
+    
+    return (       
+        <section className='time' style={cssSecundario}>
+            <h3 style={cssPrimario}>{props.nome}</h3>
         </section>
     );
 }
