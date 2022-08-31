@@ -35,7 +35,7 @@ const Formulario = (props) => {
 
                 <CampoTexto obrigatorio={true} label="Função" placeholder="Digite sua função" valor = {cargo} aoAlterado={valor => setCargo(valor)} />
 
-                <CampoTexto label="Imagem" placeholder="Digite o endereço da imagem" valor = {imagem} aoAlterado={valor => setImagem(valor)}/>
+                <CampoTexto label="Imagem do GitHub" placeholder="Digite o endereço da imagem" valor = {imagem} aoAlterado={valor => setImagem(valor)}/>
 
                 <CampoTexto label="Recompensa" placeholder="Digite a recompensa para sua cabeça" valor = {recompensa} aoAlterado={valor => setRecompensa(valor)}/>
 
