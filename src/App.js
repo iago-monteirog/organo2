@@ -8,37 +8,37 @@ function App() {
 
   const times = [
     {
-      nome: 'Programação',
+      nome: 'Piratas do Barba Negra',
       corPrimaria: '#57c278',
       corSecundaria: '#d9f7e9'
     },
     {
-      nome: 'Frontend',
+      nome: 'Piratas da Big Mom',
       corPrimaria: '#82CFFA',
       corSecundaria: '#E8F8FF'
     },
     {
-      nome: 'Data Science',
+      nome: 'Piratas das Cem Feras',
       corPrimaria: '#A6D157',
       corSecundaria: '#F0F8E2'
     },
     {
-      nome: 'Devops',
+      nome: 'Piratas do Ruivo',
       corPrimaria: '#E06B69',
       corSecundaria: '#FDE7E8'
     },
     {
-      nome: 'UX e Design',
+      nome: 'Remanescentes dos Piratas do Barba Branca',
       corPrimaria: '#DB6EBF',
       corSecundaria: '#FAE9F5'
     },
     {
-      nome: 'Mobile',
+      nome: 'Chapéus de Palha',
       corPrimaria: '#FFBA05',
       corSecundaria: '#FFF5D9'
     },
     {
-      nome: 'Inovação e Gestão',
+      nome: 'Donquixote Family',
       corPrimaria: '#FF8A29',
       corSecundaria: '#FFEEDF'
     },
