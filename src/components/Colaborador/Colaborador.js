@@ -10,7 +10,7 @@ const Colaborador = ({ nome, imagem, cargo, recompensa, corDeFundo }) => {
             <div className='rodape'>
                 <h4>{nome}</h4>
                 <h5>{cargo}</h5>
-                <h6>{recompensa}</h6>
+                <h6>{recompensa} Berries</h6>
             </div>
         </div>
     );

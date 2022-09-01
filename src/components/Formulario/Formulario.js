@@ -35,9 +35,9 @@ const Formulario = (props) => {
 
                 <CampoTexto obrigatorio={true} label="Função" placeholder="Digite sua função" valor = {cargo} aoAlterado={valor => setCargo(valor)} />
 
-                <CampoTexto label="Imagem do GitHub" placeholder="Digite o endereço da imagem" valor = {imagem} aoAlterado={valor => setImagem(valor)} tipo="file" />
+                <CampoTexto label="Imagem do Pirata" placeholder="Digite o endereço da imagem" valor = {imagem} aoAlterado={valor => setImagem(valor)} tipo="file" />
 
-                <CampoTexto label="Recompensa" placeholder="Digite a recompensa para sua cabeça" valor = {recompensa} aoAlterado={valor => setRecompensa(valor)} />
+                <CampoTexto label="Recompensa" placeholder="Digite a recompensa para sua cabeça" valor = {recompensa} tipo ="number" aoAlterado={valor => setRecompensa(valor)} />
 
                 <ListaSuspensa obrigatorio={true} label="Tripulação" itens={props.times} valor = {time} 
                 aoAlterado={valor => setTime(valor)}/>
